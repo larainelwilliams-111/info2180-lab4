@@ -1,0 +1,79 @@
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  background: #fff;
+  color: #222;
+}
+
+header {
+  background: #4f8ab8;
+  padding: 1.5rem 1rem;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  color: #fff;
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1.5rem 1.5rem 2rem;
+  background: #efefef;
+  min-height: calc(100vh - 5rem);
+}
+
+label {
+  display: block;
+  font-size: 0.85rem;
+  font-weight: bold;
+  margin-bottom: 0.4rem;
+}
+
+.search-row { display: flex; gap: 0.5rem; }
+
+input[type="text"] {
+  flex: 1;
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+button {
+  background: #c62828;
+  color: #fff;
+  border: 0;
+  padding: 0.6rem 1.4rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover, button:focus { background: #a31f1f; }
+
+h2 {
+  margin: 1.5rem 0 0.5rem;
+  color: #1b2a49;
+  text-transform: uppercase;
+}
+
+#result {
+  border-top: 1px solid #ccc;
+  padding-top: 0.75rem;
+}
+
+#result h3 { margin: 0.5rem 0 0; text-transform: uppercase; }
+#result h4 { margin: 0.1rem 0 0.75rem; font-size: 0.8rem; text-transform: uppercase; }
+#result p  { line-height: 1.5; }
+#result ul { font-size: 0.9rem; padding-left: 1.2rem; }
+
+.not-found {
+  color: #c62828;
+  font-weight: bold;
+  text-transform: uppercase;
+}
